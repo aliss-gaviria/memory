@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\alizz\OneDrive\Documentos\VHDL\memory\simulation\qsim
+vmemory
+Z1 !s100 d8GA=Ab2jFR8nkJ`ZnPMb2
+Z2 IBK=c1KQNk3@odHXIi8kag3
+Z3 VNQhCWnnGg@8l50SJC7@ld2
+Z4 dC:\Users\alizz\OneDrive\Documentos\VHDL\memory\simulation\qsim
+Z5 w1732908414
+Z6 8memory.vo
+Z7 Fmemory.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|memory.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1732908418.132000
+Z12 !s107 memory.vo|
+!s101 -O0
+vmemory_vlg_check_tst
+!i10b 1
+Z13 !s100 hh5JmOoWzA<MGKG1j>PT41
+Z14 IzO1LNT0B8=6Q<=80VFWYW0
+Z15 Vd;@5Qg9L2GZ?H3V>HgbN51
+R4
+Z16 w1732908411
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 69
+R8
+r1
+!s85 0
+31
+Z19 !s108 1732908419.038000
+Z20 !s107 Waveform.vwf.vt|
+Z21 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vmemory_vlg_sample_tst
+!i10b 1
+Z22 !s100 QV7U:hec0agZYX08lmAlD3
+Z23 Ii4jBdaVHa:5Z^QI7^]m3^1
+Z24 Vb_6Un8UlVh]cEn79T<DJA0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vmemory_vlg_vec_tst
+!i10b 1
+Z25 !s100 aY=CP06B9??@14Q1]ZW>51
+Z26 IYYS:MNEel8ZT0[f4^O6h]3
+Z27 VJA9X:jaS8d0eAaocQHkG70
+R4
+R16
+R17
+R18
+Z28 L0 593
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

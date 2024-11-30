@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity memory is
+port (
+address: in std_logic_vector(7 downto 0);
+data_in: in std_logic_vector (7 downto 0);
+writes: in std_logic;
+clock: in std_logic;
+reset: in std_logic;
+port_in_00: in std_logic_vector(7 downto 0);
+port_in_01: in std_logic_vector(7 downto 0);
+data_out: out std_logic_vector (7 downto 0);
+port_out_00 : out std_logic_vector(7 downto 0);
+port_out_01 : out std_logic_vector(7 downto 0));
+end memory;
+architecture arch_memory of memory is
+component output_port
+  port (
+    address     : in std_logic_vector(7 downto 0);
+    data_in     : in std_logic_vector(7 downto 0);
+    writes      : in std_logic;
+    clock       : in std_logic;
+    reset       : in std_logic;
+    port_out_00 : out std_logic_vector(7 downto 0);
+    port_out_01 : out std_logic_vector(7 downto 0)
+  );
+end component;
+component rw_96x8_sync 
+port (
+        address   : in  std_logic_vector(7 downto 0);  
+        data_in   : in  std_logic_vector(7 downto 0);  
+        writes    : in  std_logic;                      
+        clock     : in  std_logic;                   
+        data_out  : out std_logic_vector(7 downto 0)    
+    );
+end component;
+component rom_128x8_sync 
+    port (
+        address   : in  std_logic_vector(7 downto 0);  
+        clock     : in  std_logic;                      
+        data_out  : out std_logic_vector(7 downto 0)    
+    );
+end component;
+begin
+end arch_memory;

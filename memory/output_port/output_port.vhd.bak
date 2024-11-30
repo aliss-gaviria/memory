@@ -1,0 +1,8 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity output_port is
+port ();
+end output_port;
+architecture arch_output_port of output_port is
+begin 
+end arch_output_port;
